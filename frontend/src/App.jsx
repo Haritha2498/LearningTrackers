@@ -4,6 +4,7 @@ import SignupPage from './Pages/Signup';
 import First from './Pages/First';
 import LoginPage from './Pages/Login';
 import EducatorDashboard from './Pages/Educatordashboard';
+import AddCourse from './Pages/Addcourse';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Route path="/sign-up" element={<SignupPage />} />
         <Route path="/login" element={<LoginPage />} />
         <Route path="/educatordashboard" element={<EducatorDashboard />} />
+        <Route path="/addcourse" element={<AddCourse />} />
       </>
     )
   );

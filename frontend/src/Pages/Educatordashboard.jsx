@@ -70,9 +70,11 @@ const EducatorDashboard = () => {
         </table>
         {/* Add New Course Button */}
         <div className="text-right mt-10">
-          <button className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600">
-            Add New Course
-          </button>
+          <a href="/addcourse">
+            <button className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600">
+              Add New Course
+            </button>
+          </a>
         </div>
       </div>
 
